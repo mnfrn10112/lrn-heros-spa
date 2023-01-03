@@ -6,7 +6,6 @@ const CharacterByHero = ({ alter_ego, characters }) =>
 export const HeroCard = ({ id, superhero, publisher,
     alter_ego, first_appearance, characters }) => {
     const urlImage = `/assets/heroes/${id}.jpg`;
-    console.log(characters);
     return (
         <div className="col">
             <div className="card">
